@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        @apply bg-bgsec text-txtsec
+    }
+
+    .inp-label{
+        @apply text-lg ml-1
+    }
+
+    .inp{
+        @apply bg-black border-b-[0.5px] border-b-gray-300 outline-none h-10 px-2 text-sm
+    }
+
+    form > div{
+        @apply flex flex-col gap-2
+    }
+
+    .btn-prm{
+        @apply bg-prm p-2 rounded-md hover:opacity-70
+    }
+}
